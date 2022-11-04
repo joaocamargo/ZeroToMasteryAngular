@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
   // styles: ['']
 })
 export class AppComponent {
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
   name = 'luis ramirez'
   imgURL = 'https://picsum.photos/id/237/500/500'
   images = [
